@@ -4,6 +4,10 @@
 title: Sipdb
 description: Salinan lokal database produksi MySQL/MariaDB, server hanya dibaca. / A local copy of your production MySQL/MariaDB database; the server is only read.
 theme: minima
+# The header lists only each language's front page, not all 20 pages.
+header_pages:
+  - id/index.md
+  - en/index.md
 # app.Link opens pages as id/privasi/, en/privacy/, ...
 permalink: pretty
 # Public support address for the Store listing and the privacy policy.
