@@ -1,0 +1,11 @@
+# Sipdb's public site (GitHub Pages, repo sipdb-site), made from site/ in
+# the private sipdb repo by `task site:publish`. Do not edit it in
+# sipdb-site: the next publish overwrites it.
+title: Sipdb
+description: Salinan lokal database produksi MySQL/MariaDB, server hanya dibaca. / A local copy of your production MySQL/MariaDB database; the server is only read.
+theme: minima
+# app.Link opens pages as id/privasi/, en/privacy/, ...
+permalink: pretty
+# Public support address for the Store listing and the privacy policy.
+# `task site:publish` refuses while it is empty.
+support_email: sendibagaskara2@gmail.com

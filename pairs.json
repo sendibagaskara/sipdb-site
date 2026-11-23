@@ -1,0 +1,12 @@
+[
+  ["id/index.md", "en/index.md"],
+  ["id/pasang.md", "en/install.md"],
+  ["id/akun-read-only.md", "en/read-only-account.md"],
+  ["id/profil.md", "en/profile.md"],
+  ["id/sync.md", "en/sync.md"],
+  ["id/jadwal.md", "en/schedule.md"],
+  ["id/cli.md", "en/cli.md"],
+  ["id/keamanan.md", "en/security.md"],
+  ["id/masalah.md", "en/troubleshooting.md"],
+  ["id/privasi.md", "en/privacy.md"]
+]
