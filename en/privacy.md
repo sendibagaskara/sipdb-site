@@ -25,7 +25,7 @@ Help and Privacy links open in your browser.
 |---|---|
 | Connection profiles (host, port, user, database name, schedule) | Sipdb's app data folder |
 | Passwords and SSH key passphrases | Windows Credential Manager |
-| Sync logs (no passwords, no row contents) | Sipdb's app data folder, at most 30 MB per log file |
+| Sync logs: table names, row counts and error messages, no passwords. A database error message can quote data values (such as `Duplicate entry '…'`) | Sipdb's app data folder; files rotate at 5 MB, at most six files per log (one log for the app, one for the CLI) |
 | The data copy and sync records (the `_sipdb` schema) | Your local database |
 
 All of it stays on your laptop. Uninstalling Sipdb removes the profiles,

@@ -25,7 +25,7 @@ Tautan Bantuan dan Privasi dibuka di browsermu.
 |---|---|
 | Profil koneksi (host, port, user, nama database, jadwal) | Folder data aplikasi Sipdb |
 | Password dan passphrase kunci SSH | Windows Credential Manager |
-| Log sync (tanpa password dan tanpa isi baris) | Folder data aplikasi Sipdb, paling banyak 30 MB per file log |
+| Log sync: nama tabel, jumlah baris, dan pesan error, tanpa password. Pesan error dari database bisa memuat nilai data (misalnya `Duplicate entry '…'`) | Folder data aplikasi Sipdb; file berotasi di 5 MB, paling banyak enam file per log (aplikasi dan CLI masing-masing satu log) |
 | Salinan data dan catatan sync (schema `_sipdb`) | Database lokalmu |
 
 Semua tetap di laptopmu. Mencopot Sipdb menghapus profil, pengaturan, dan
